@@ -24,7 +24,7 @@ for ($i = 0; $i < $zodziuKiekis; $i++){
 }
 
 for ($x = 0; $x < $zodziuKiekis2; $x++){
-    if (strlen($string2[$x]) <= 5) {
+    if (mb_strlen($string2[$x]) <= 5) {
         $countOf52++;
     }
 }
